@@ -1,0 +1,258 @@
+@font-face {
+	font-family: '8bitOperatorPlus-Regular';
+	src: url("../font/8bitOperatorPlus-Regular.eot?#iefix") format("embedded-opentype"), 
+		 url("../font/8bitOperatorPlus-Regular.woff") format("woff"), 
+		 url("../font/8bitOperatorPlus-Regular.ttf") format("truetype"), 
+		 url("../font/8bitOperatorPlus-Regular.svg#8bitOperatorPlus-Regular") format("svg");
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: '8bitOperatorPlus-Bold';
+	src: url("../font/8bitOperatorPlus-Bold.eot?#iefix") format("embedded-opentype"), 
+		 url("../font/8bitOperatorPlus-Bold.woff") format("woff"), 
+		 url("../font/8bitOperatorPlus-Bold.ttf") format("truetype"), 
+		 url("../font/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold") format("svg");
+	font-weight: normal;
+	font-style: normal; 
+}
+
+
+body {
+	
+    margin: 0;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    image-rendering: pixelated;
+
+	background-color: black;
+	font-family: '8bitOperatorPlus-Bold', monospace;
+	color: #ffffff;
+}
+
+.screenshot-container {
+	aspect-ratio: 4/3; max-width: 640px; margin-left: auto; margin-right: auto; margin-bottom: 4rem;
+}
+
+.content {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+	text-decoration: none;
+	color: #F9FF10;
+}
+
+a:hover {
+	color: #D6DC00;
+}
+
+.titlecard {
+	padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	padding: 0;
+	margin: 0 auto;
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+}
+
+.iframe  {
+	pointer-events: none;
+}
+
+.muted {
+	color: #878787;
+}
+
+.videoplayer {
+	size: 20px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+	padding-bottom: 3em;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 1em;
+	word-wrap: break-word;
+}
+
+.download {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 32px;
+}
+
+.download-experimental {
+	font-size: 24px;
+}
+
+.question {
+	font-size: 20px;
+}
+
+.question:before {
+	content: 'Q: ';
+    font-family: "8bitOperatorPlus-Bold", monospace;
+}
+
+.answer {
+	font-size: 18px;
+    font-family: "8bitOperatorPlus-Regular", monospace;
+	margin-top: -0.3em;
+	padding-bottom: 1em;
+}
+
+.answer-extra {
+	font-size: 16px;
+    font-family: "8bitOperatorPlus-Regular", monospace;
+	margin-top: -0.3em;
+	padding-bottom: 1em;
+}
+
+.answer:before {
+	content: 'A: ';
+    font-family: "8bitOperatorPlus-Bold", monospace;
+}
+
+.answer-list {
+	font-size: 16px;
+    font-family: "8bitOperatorPlus-Regular", monospace;
+	margin-top: -1em;
+	padding-bottom: 1em;
+}
+
+footer {
+	left: 0;
+	bottom: 0.5em;
+	margin-bottom: 1em;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.problem {
+	font-size: 16px;
+}
+
+.problem:before {
+	content: 'PROBLEM: ';
+	color: red;
+	font-size: 20px;
+    font-family: "8bitOperatorPlus-Bold", monospace;
+}
+
+.solution {
+	font-size: 16px;
+	padding-bottom: 2em;
+    font-family: "8bitOperatorPlus-Regular", monospace;
+}
+
+.solution:before {
+	content: 'SOLUTION: ';
+	color: lime;
+    font-family: "8bitOperatorPlus-Bold", monospace;
+}
+
+.basic {
+	text-align: center;
+	font-family: "8bitOperatorPlus-Regular", monospace;
+	font-size: 18px;
+}
+
+.basic-list {
+	text-align: left;
+	font-family: "8bitOperatorPlus-Regular", monospace;
+	font-size: 18px;
+}
+
+.navbar {
+	background-color: #292929;
+	min-height: 3.5em;
+}
+
+.dropdown-item:active {
+	background: #a8a8a8;
+}
+
+.nav-item {
+	padding-right: 2em;
+}
+
+.about {
+	padding-bottom: 2em;
+}
+
+.credits-item {
+	text-shadow: 2px 2px #000000;
+    font-family: "8bitOperatorPlus-Bold", monospace;
+	text-align: left;
+}
+
+.credits-space {
+	height: 2em;
+}
+
+.credits-title {
+	color: #ffff00;
+}
+
+.credits-name {
+	font-size: 24px;
+}
+
+.credits-role {
+	font-size: 24px;
+	color: #757575;
+	float: right;
+}
+
+.credits-title-major {
+	color: #ffff00;
+	text-align: center;
+}
+
+.credits-description {
+	color: #a0a0a0;
+	padding-left: 2em;
+}
+
+.faq-title-major {
+	color: #ffff00;
+	padding-left: 2em;
+}
+
+img {
+	pointer-events: none;
+}
+
+.imgpreview {
+	padding-bottom: 20px;
+}
+
+.anchor-marked {
+	background-color: none;
+}
+
+.anchor-marked:target {
+	background-color: rgba(155, 167, 0, 0.5);
+}
+
+.aboutimg {
+    padding: 0;
+    padding-bottom: 2em;
+    object-fit: scale-down;
+}
+
+.about-content {
+    width: 1360px;
+}
